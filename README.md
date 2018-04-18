@@ -16,6 +16,7 @@ Git Link
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 # Git REAL
+git help config
 1.Setting Up Git
 ```
 git config --global user.name "mainul"
