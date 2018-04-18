@@ -15,7 +15,7 @@ sudo apt update; apt install git
 Git Link
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-#### Git REAL
+# Git REAL
 ```
 1.Setting Up Git
 
