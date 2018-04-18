@@ -21,8 +21,8 @@ git help config
 ```
 1.Setting Up Git
 ```
-git config --global user.name "mainul"
-git config --global user.email mainul080@yahoo.com
+git config --global user.name "xxx"
+git config --global user.email xxx@yahoo.com
 git config --global color.ui true
 ```
 2.Starting a Repo
