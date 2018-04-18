@@ -6,8 +6,9 @@ Git is a free and open source distributed version control system designed to han
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install git
-
-## For Ubuntu, this PPA provides the latest stable upstream Git version
+```
+For Ubuntu, this PPA provides the latest stable upstream Git version
+```
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt update; apt install git
 ```
