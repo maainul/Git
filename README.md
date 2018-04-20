@@ -16,7 +16,7 @@ Git Link
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 # Git REAL
-   ##                          Level 1
+##                          Level 1
 ```
 git help config
 ```
@@ -25,6 +25,8 @@ git help config
 git config --global user.name "xxx"
 git config --global user.email xxx@yahoo.com
 git config --global color.ui true
+git config --global color.status auto
+git config --global color.branch auto
 ```
 ### 2.Starting a Repo
 ```
