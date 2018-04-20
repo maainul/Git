@@ -20,40 +20,40 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 ```
 git help config
 ```
-1.Setting Up Git
+### 1.Setting Up Git
 ```
 git config --global user.name "xxx"
 git config --global user.email xxx@yahoo.com
 git config --global color.ui true
 ```
-2.Starting a Repo
+### 2.Starting a Repo
 ```
 mkdir store
 cd store
 git init
 ```
-3.Add file to staging area
+### 3.Add file to staging area
 ```
 git add READMe.txt
 git status (To check whats changed since last commit)
 ```
-4.Commit changes
+### 4.Commit changes
 ```
 git commit -m "Creat a README."
 git status
 ```
-5.Add both files to staging area 
+### 5.Add both files to staging area 
 ```
 git add README.txt LISENCE or git add --all (Add all new or modified file)
 git status 
 git commit -m "Add LICENSE and finish READ."
 ```
-6.Git Timeline History
+### 6.Git Timeline History
 ```
 git log ()
 git status
 ```
-7.Different ways to add 
+### 7.Different ways to add 
 ```
 git add <list of files> (Add list of files)
 git add --all (Add all files)
