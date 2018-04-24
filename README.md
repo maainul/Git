@@ -22,6 +22,7 @@ git help config
 ```
 ### 1.Setting Up Git
 ```
+git init
 git config --global user.name "xxx"
 git config --global user.email xxx@yahoo.com
 git config --global color.ui true
@@ -64,4 +65,21 @@ git add docs/*.txt (Add all txt files in docs directory)
 git add docs/ (Add all files in docs directory)
 git add "*.txt" (Add all txt files in the whole project)
 
+```
+### 8.Clone Repository
+```
+git clone https://github.com/maainul/Git.git
+git add .
+git status
+git pull origin master
+git status
+```
+### 9.Upload Repository
+```
+Create folder in your local server and type
+git add REPOSITORY NAME
+git status
+git push origin master
+git status
+git log
 ```
