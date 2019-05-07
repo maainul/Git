@@ -1,6 +1,31 @@
 # Git
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.  Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
 
+## Configure in Windows
+
+```
+1.Download and Install git from :: https://git-scm.com/downloads
+2.Setting Up git
+  git config --global user.name "xxx"
+  git config --global user.email xxx@yahoo.com
+  git config --global color.ui true
+  git config --global color.status auto
+  git config --global color.branch auto
+  
+3.Create a repository in the Remote server: HTML
+
+4.Clone the repository: 
+  git clone https://github.com/maainul/HTML.git
+  git status
+  git add .
+  git status
+  git pull origin master
+  git commit -m "comment here"
+  git push
+  git status
+```
+
+
 ## Installing git on Linux
 ```
 sudo apt-get update
@@ -22,7 +47,6 @@ git help config
 ```
 ### 1.Setting Up Git
 ```
-git init
 git config --global user.name "xxx"
 git config --global user.email xxx@yahoo.com
 git config --global color.ui true
