@@ -16,13 +16,6 @@ Git is a free and open source distributed version control system designed to han
 
 4.Clone the repository: 
   git clone https://github.com/maainul/HTML.git
-  git status
-  git add .
-  git status
-  git pull origin master
-  git commit -m "comment here"
-  git push
-  git status
 ```
 
 
@@ -30,7 +23,7 @@ Git is a free and open source distributed version control system designed to han
 ```
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install git
+sudo apt-get install git-core
 ```
 For Ubuntu, this PPA provides the latest stable upstream Git version
 ```
@@ -45,13 +38,6 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 ```
 git help config
 ```
-### 1.Setting Up Git
-```
-git config --global user.name "xxx"
-git config --global user.email xxx@yahoo.com
-git config --global color.ui true
-git config --global color.status auto
-git config --global color.branch auto
 ```
 ### 2.Starting a Repo
 ```
@@ -90,14 +76,7 @@ git add docs/ (Add all files in docs directory)
 git add "*.txt" (Add all txt files in the whole project)
 
 ```
-### 8.Clone Repository
-```
-git clone https://github.com/maainul/Git.git
-git add .
-git status
-git pull origin master
-git status
-```
+
 ### 9.Upload Repository
 ```
 Create folder in your local server and type
