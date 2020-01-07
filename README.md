@@ -134,3 +134,42 @@ git apply '0001-added_my.patch'
 git status -s
 git diff
 ```
+# Managing Branches:
+## You want to keep your version 6.0 and version 7.0 separate
+## You can create separate version
+## Create Branch:
+```
+git branch new_branch
+git branch
+git checkout new_branch
+git branch
+
+## Shortcut to create branch
+
+git checkout -b test_branch
+git branch
+```
+## Delete Branch
+```
+git branch
+git checkout master
+git branch -D test_branch
+git branch
+```
+## Rename Branch:
+```
+git branch
+git branch -m new_branch wchar_support
+git branch
+```
+## Merge 2 Branch:
+```
+git branch
+pwd
+git diff
+git status -s
+git add string_operations.c
+git commit -m "Added string operations"
+git push origin master
+--------------------------- not finished...
+```
