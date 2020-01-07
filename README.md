@@ -42,4 +42,54 @@ git status -s
 git commit -m "Modified directroy"
 git push origin master
 ```
+# Rename Operation: (Rename file)
+
+```
+pwd
+ls
+cd src
+git add makefile
+git mv string.c string_operations.c
+git status -s
+git commit -a -m "added makefile and rename file string.c to string_operations.c"
+git push origin master
+```
+
+# Delete Operation: (Delete file from repository)
+
+```
+pwd
+ls
+cd src
+git log
+git rm string_operations.c
+git status -s
+git commit -a "delete string_operations.c"
+git push origin master
+```
+# Fix Mistake Operation: 
+## Mistake 1 : Delete from local repository
+### Suppose you delete a file from your local repository and you want your file back
+
+```
+# Check your file first.
+pwd
+git status -s
+git checkout
+git checkout string_operations.c
+git status -s
+
+## if found run file back operation
+
+ls -1
+rm string_operations.c (file back operation)
+ls -1
+git status -s
+git checkout string_operatios.c
+ls -1
+git status -s
+```
+
+
+
 
