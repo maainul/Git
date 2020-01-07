@@ -34,13 +34,13 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 # Move Operation: (Move file to another directory)
 
 ```
-  >> pwd
-  >> ls
-  >> mkdir src
-  >> git mv string.c src/
-  >> git status -s
-  >> git commit -m "Modified directroy"
-  >> git push origin master
+    >> pwd
+    >> ls
+    >> mkdir src
+    >> git mv string.c src/
+    >> git status -s
+    >> git commit -m "Modified directroy"
+    >> git push origin master
 ```
 
 
