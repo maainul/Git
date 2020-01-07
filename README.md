@@ -30,15 +30,14 @@ sudo apt update; apt install git
 ```
 mkdir github_repo
 cd github_repo/
-vi hello.c
-make hello
-./hello
+
+## Create a repository in the server
+git status
 git init
+git add .
 git status
-git add hello.c
-git status
-git commit -m "initialize commit"
-git remote add origin https://github.com/maainul/github_repo
+git commit -m "first commit"
+git remote add origin https://github.com/maainul/github_repo.git
 git push -u origin master
 ```
 # Clone Operaion:
