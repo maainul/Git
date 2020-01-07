@@ -89,7 +89,33 @@ git checkout string_operatios.c
 ls -1
 git status -s
 ```
+# Stash Operation: 
 
+```
+git status -s
+git stash
+git status -s
+git stash list
+git status -s
+git stash pop
+```
+# Tag Operations: Give meaningful name to a specific version
+## Create Tag:
+```
+pwd
+git tag -a 'Release 1_0' -m 'Tag basic string operations code' HEEAD
+git push origin master
 
-
-
+```
+## View Tag:
+```
+git pull origin master
+git tag -l
+git show Release_1_0
+```
+## Delete Tag:
+```
+git tag
+git tag -d Release_1_0
+git push origin master
+```
