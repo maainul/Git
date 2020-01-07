@@ -26,6 +26,35 @@ For Ubuntu, this PPA provides the latest stable upstream Git version
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt update; apt install git
 ```
+# Create Repository Local and publish on the Server
+```
+mkdir github_repo
+cd github_repo/
+vi hello.c
+make hello
+./hello
+git init
+git status
+git add hello.c
+git status
+git commit -m "initialize commit"
+git remote add origin https://github.com/maainul/github_repo
+git push -u origin master
+```
+# Clone Operaion:
+```
+git clone https://github.com/maainul/github_repo
+```
+# Perform Changes: (Suppose you update some line of code and want to review and perfom changes)
+```
+git status -s
+git add string.c
+git commit -m "implemented my string function"
+git log
+git show cbe1245redff12466dwf4145swefaeefeweq1245
+git diff
+git push origin master
+```
 
 # Move Operation: (Move file to another directory)
 
