@@ -115,3 +115,22 @@ git tag
 git tag -d Release_1_0
 git push origin master
 ```
+# Patch Operation:
+### It will keep all the commit records, along with id,date and message in text file
+#### Suppose you add a function to string_operations.c file and you want to patch file of this code.
+```
+pwd
+git status
+git add string_operation.c
+git commit -m "Added mystrcat function"
+git format-patch -l
+
+## To apply patch and create commit
+
+pwd 
+git diff
+git status -s
+git apply '0001-added_my.patch'
+git status -s
+git diff
+```
