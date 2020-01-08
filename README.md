@@ -97,20 +97,10 @@ git push origin master
 
 ```
 # Check your file first.
-pwd
 git status -s
+ls -1
 git checkout
 git checkout string_operations.c
-git status -s
-
-## if found run file back operation
-
-ls -1
-rm string_operations.c (file back operation)
-ls -1
-git status -s
-git checkout string_operatios.c
-ls -1
 git status -s
 ```
 # Stash Operation: 
