@@ -38,7 +38,19 @@ git add .
 git status
 git commit -m "first commit"
 git remote add origin https://github.com/maainul/github_repo.git
+git pull origin master
 git push -u origin master
+
+## If problem occurs:
+git push origin master --force
+
+## If you want to add README.md 
+touch README.MD
+git add README.md
+git commit -m "add README"
+(AT LEAST WRITE TITLE IN THE READ ME)
+git push origin master
+
 ```
 # Clone Operaion:
 ```
