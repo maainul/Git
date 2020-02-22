@@ -90,7 +90,11 @@ git status -s
 git commit -a -m "added makefile and rename file string.c to string_operations.c"
 git push origin master
 ```
+# Rename Commit After push
+```
+git commit -amend - m "new commit/you commit"
 
+```
 # Delete Operation: (Delete file from repository)
 
 ```
