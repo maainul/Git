@@ -6,90 +6,91 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 # Configure Git: 
 ## Configure in Windows
 
-```
-Download and Install git from :: https://git-scm.com/downloads
-Setting Up git
-  git config --global user.name "xxx"
-  git config --global user.email xxx@yahoo.com
-  git config --global color.ui true
-  git config --global color.status auto
-  git config --global color.branch auto
-```
-## Installing git on Linux
-```
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install git-core
-```
-For Ubuntu, this PPA provides the latest stable upstream Git version
-```
-sudo add-apt-repository ppa:git-core/ppa
-sudo apt update; apt install git
-```
+#### Download and Install git from :: https://git-scm.com/downloads
+
+## Setting Up git 
+
+> git config --global user.name "xxx"
+
+> git config --global user.email xxx@yahoo.com
+  
+
+## Installing git on Linux(Ubuntu)
+
+> sudo apt-get update
+
+> sudo apt-get upgrade
+
+> sudo apt-get install git
+
+> git config --global user.name "xxx"
+  
+> git config --global user.email xxx@yahoo.com
+
+> git config --list
+
+> gedit .gitconfig
+
 # Create Repository Local and publish on the Server
-```
-mkdir github_repo
-cd github_repo/
 
-## Create a repository in the server
-git status
-git init
-git add .
-git status
-git commit -m "first commit"
-git remote add origin https://github.com/maainul/github_repo.git
-git pull origin master
-git push -u origin master
+> mkdir github_repo
 
-## If problem occurs:
-git push origin master --force
+> cd github_repo/
 
-## If you want to add README.md 
-touch README.MD
-git add README.md
-git commit -m "add README"
-(AT LEAST WRITE TITLE IN THE READ ME)
-git push origin master
-
-```
 # Clone Operaion:
-```
-git clone https://github.com/maainul/github_repo
-```
+
+> git clone https://github.com/maainul/github_repo
+
 # Perform Changes: (Suppose you update some line of code and want to review and perfom changes)
-```
-git status -s
-git add string.c
-git commit -m "implemented my string function"
-git log
-git show cbe1245redff12466dwf4145swefaeefeweq1245
-git diff
-git push origin master
-```
+
+> git status -s
+
+> git add string.c
+
+> git commit -m "implemented my string function"
+
+> git log
+
+> git show cbe1245redff12466dwf4145swefaeefeweq1245
+
+> git diff
+
+> git push origin master
 
 # Move Operation: (Move file to another directory)
 
-```
-pwd
-ls
-mkdir src
-git mv string.c src/
-git status -s
-git commit -m "Modified directroy"
-git push origin master
-```
+> pwd
+
+> ls
+
+> mkdir src
+
+> git mv string.c src/
+
+> git status -s
+
+> git commit -m "Modified directroy"
+
+> git push origin master
+
 # Rename Operation: (Rename file)
 
-```
-pwd
-ls
-cd src
-git add makefile
-git mv string.c string_operations.c
-git status -s
-git commit -a -m "added makefile and rename file string.c to string_operations.c"
-git push origin master
-```
+> pwd
+
+> ls
+
+> cd src
+
+> git add makefile
+
+> git mv string.c string_operations.c
+
+> git status -s
+
+> git commit -a -m "added makefile and rename file string.c to string_operations.c"
+
+> git push origin master
+
 # Rename Commit After push
 ```
 git commit -amend - m "new commit/you commit"
